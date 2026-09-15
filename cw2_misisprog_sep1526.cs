@@ -35,44 +35,51 @@ namespace cw2
 
 
             // TASK 6 =========================================
-            //int num1 = int.Parse(Console.ReadLine());
-            //int i1 = 1;
-            //int sm = 0;
+            int num1 = int.Parse(Console.ReadLine());
+            int i1 = 1;
+            int sm = 0;
 
-            //for (int i = 1; i <= num1; i += 2)
-            //{
-            //    if (i % 2 != 0)
-            //    {
-            //        sm += i;
-            //        Console.WriteLine(i);
-            //    }
-            //}
+            for (int i = 1; i <= num1; i += 2)
+            {
+                if (i % 2 != 0)
+                {
+                    sm += i;
+                    Console.WriteLine(i);
+                }
+            }
 
 
-            //while (i1 <= num1)
-            //{
-            //    if (i1 % 2 != 0)
-            //    {
-            //        sm += i1;
-            //        Console.WriteLine(i1);
-            //    }
-            //    i1 += 2;
-            //}
+            while (i1 <= num1)
+            {
+                if (i1 % 2 != 0)
+                {
+                    sm += i1;
+                    Console.WriteLine(i1);
+                }
+                i1 += 2;
+            }
 
-            //do
-            //{
-            //    if (i1 % 2 != 0)
-            //    {
-            //        sm += i1;
-            //        Console.WriteLine(i1);
-            //    }
-            //    i1 += 2;
-            //} while (i1 <= num1);
+            do
+            {
+                if (i1 % 2 != 0)
+                {
+                    sm += i1;
+                    Console.WriteLine(i1);
+                }
+                i1 += 2;
+            } while (i1 <= num1);
 
-            //Console.WriteLine(sm);
+            Console.WriteLine(sm);
 
             // TASK 7 ===========================
+            long s1 = 0;
 
+            for (int i = 1; i <= num1; i++) 
+            {
+                s1 += (long)i * i;
+            }
+
+            Console.WriteLine(s1);
 
 
 
